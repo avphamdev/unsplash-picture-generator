@@ -17,16 +17,6 @@ namespace BeautifulPictureGenerator
             this.WindowState = FormWindowState.Maximized;
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private async void Generate_Click(object sender, EventArgs e)
         {
             label1.Text = null;
